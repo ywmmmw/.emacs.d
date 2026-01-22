@@ -1,0 +1,8 @@
+save-auto-list/
+autosaves/
+backups/
+elpa/
+recentf
+.cache/
+undo/
+eln-cache/
