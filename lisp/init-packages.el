@@ -13,6 +13,12 @@
 ;; undo-tree
 (require 'init-undo)
 
+;; code setting
+(require 'init-enhance)
+
+;; project manager
+(require 'init-projectile)
+
 ;; php
 (require 'init-php)
 

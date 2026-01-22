@@ -1,7 +1,7 @@
 (use-package counsel
   :ensure t
   :bind (("C-s"   . swiper-isearch)
-         ("C-r"   . swiper-isearch-backward))
+	 ("C-x b" . 'ivy-switch-buffer))
   :hook ((after-init . ivy-mode)
          (ivy-mode . counsel-mode))
   :init
