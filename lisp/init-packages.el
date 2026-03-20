@@ -21,5 +21,13 @@
 
 ;; php
 (require 'init-php)
+;; toml
+(require 'init-toml)
+;; kdl
+(require 'init-kdl)
+
+;;dired
+(require 'init-dired)
+
 
 (provide 'init-packages)
